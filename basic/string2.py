@@ -56,10 +56,8 @@ def front_back(a, b):
     params = [a, b]
     front = ''
     back = ''
-    print params
     for param in params:
-        size = len(param)
-        mod = divmod(size, 2)
+        mod = divmod(len(param), 2)
         pos = mod[0] + mod[1]
         front += param[:pos]
         back += param[pos:]
