@@ -60,6 +60,7 @@ def sort_last(tuples):
     # reference: https://docs.python.org/3/howto/sorting.html#sortinghowto
     return sorted(tuples, key=lambda custom_key: custom_key[-1])
 
+
 # Simple provided test() function used in main() to print
 # what each function returns vs. what it's supposed to return.
 def test(got, expected):
